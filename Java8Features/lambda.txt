@@ -1,0 +1,5 @@
+// Lambda expression is anonymous function that means is has: no name, no
+// modifier, no return type.
+
+// Benefits of lambda are: 1) reduces the lines of code, 2) to call APIs very
+// effectively, 3) to write more readable, 4) maintainable and concise code.
