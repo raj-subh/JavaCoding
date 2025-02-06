@@ -1,4 +1,4 @@
-package Java8Features;
+package Java8Features.Lambda;
 
 @FunctionalInterface
 public interface MyInterface {

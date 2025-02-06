@@ -146,7 +146,27 @@ public class Practice {
                     System.out.println("Peeked item is: " + peekedItem);
                     break;
 
+                case 6:
+                    System.out.println("Enter position and new item for update: ");
+                    value = scanner.nextInt();
+                    position = scanner.nextInt();
+                    stack.updateItem(position, value);
+                    break;
+
+                case 7:
+                    System.out.println("Total items are: " + stack.countItem());
+                    break;
+
+                case 8:
+                    stack.displayItem();
+                    break;
+
+                case 9:
+                    System.out.println("\033[H\033[2J");
+                    break;
+
                 default:
+                    System.out.println("Enter valid option!");
                     break;
             }
         } while (option != 0);
